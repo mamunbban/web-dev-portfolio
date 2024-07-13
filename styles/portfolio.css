@@ -182,6 +182,53 @@ footer input[type="text"], footer textarea{
 
 }
 
+/* media query */
+.hide{
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .skills-container,
+   .resume-container,
+    footer, .about-items,
+    .banner,
+    nav,
+    nav>ul
+    {
+   flex-direction: column;
+  }
+  nav > ul{
+    gap: 20px;
+  }
+.btn-primary{
+ margin-bottom: 10px;
+}
+
+  .banner{
+    margin: 20px;
+  }
+  .header{
+    background-image: none;
+
+  }
+  .banner-profile-pic{
+    width: 100%;
+  }
+  footer, .about {
+    padding: 20px;
+  }
+}
+.footer-column{
+  width: 100%;
+}
+
+  footer input[type="text"], footer textarea{
+    width: calc(100% - 40px);
+}
+
+
+
+
+
 
 
 
